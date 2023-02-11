@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".startingActivity.AddingPhoto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Almost everything is done,please
+upload your photo to start chatting"
+    android:textSize="22sp"
+    android:textColor="@color/black"
+    android:textStyle="normal"
+    android:fontFamily="sans-serif-light"
+    android:gravity="center"
+    android:layout_marginTop="40dp"
+    />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:text="Upload your photo"
+            android:textColor="#4adede"
+            android:textStyle="normal"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:layout_marginTop="40dp"
+
+            />
+
+
+        <ImageView
+            android:id="@+id/pickedImage"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:background="@drawable/postphotobackground"
+            android:layout_margin="10dp"
+            android:src="@drawable/smallerplus"
+           />
+
+
+
+
+
+
+        <TextView
+            android:id="@+id/continueButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Continue"
+            android:textStyle="normal"
+            android:fontFamily="sans-serif-light"
+            android:background="@drawable/textbackground"
+            android:textSize="30sp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:padding="7dp"
+            />
+
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
